@@ -1,0 +1,8 @@
+class mahasiswa:
+    def __init__(self, nama, npm):
+        self.nama = nama
+        self.npm = npm
+    def exsece(self):
+        print("Saya "+ self.nama + " dengan NPM", self.npm)
+mahas = mahasiswa("Tiara", 51420249)
+mahas.exsece()
